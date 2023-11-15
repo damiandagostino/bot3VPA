@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bot VPA || Proyectado de ganancias</title>
+    <link rel="shortcut icon" href="./assets/img/vpico.svg">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="/css/style.css">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="container">
+                <a class="navbar-brand" href="#">
+                    <img src="./assets/img/logo.jpg" alt="VPA" width="194" height="79">
+                </a>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="input-group">
+            <span class="input-group-text">Cliente y Cuit</span>
+            <input type="text" aria-label="Razon social cliente" class="form-control">
+            <input type="text" aria-label="CUIT" class="form-control">
+          </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">Total de ventas</span>
+            <input type="text" class="form-control ventas" placeholder="$00,00" aria-label="Ventas"
+                aria-describedby="basic-addon1">
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">Total de compras</span>
+            <input type="text" class="form-control compras" placeholder="$00,00" aria-label="compras"
+                aria-describedby="basic-addon1">
+        </div>        
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">Total de IIBB</span>
+            <input type="text" class="form-control iibb" placeholder="$00,00" aria-label="iibb"
+                aria-describedby="basic-addon1">
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">Total de Sueldos y Cargas sociales</span>
+            <input type="text" class="form-control sueldosyCargasSociales" placeholder="$00,00" aria-label="sueldosyCargasSociales"
+                aria-describedby="basic-addon1">
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">Total de Sindicatos</span>
+            <input type="text" class="form-control sindicatos" placeholder="$00,00" aria-label="Sindicatos"
+                aria-describedby="basic-addon1">
+        </div>
+        <div class="input-group mb-3">
+            <span class="input-group-text" id="basic-addon1">Otros gastos</span>
+            <input type="text" class="form-control otrosGastos" placeholder="$00,00" aria-label="otrosGastos"
+                aria-describedby="basic-addon1">
+        </div>
+        <div class="boton">
+            <button type="button" class="btn btn-danger">Enviar mensaje</button>
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</body>
+</html>
